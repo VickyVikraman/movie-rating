@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/style.css">
+		<title>Add Movie</title>
+	</head>
+	<body>
+		<div class="">
+			<img class="logo"  src="images/projector-logo.png" width="100px" height="20px"/>
+			<div class="menu">
+				<a>HOME</a>
+				<a>ADD MOVIE</a>
+			</div>
+		</div>
+		<div class="main">
+			<form method="post" id="new" class="add">
+				<h2>Add a New Movie</h2>
+				<div>
+					<label for="name">Movie Name</label>
+				</div>
+				<div>
+					<input type="text" name="name"/>
+				</div>
+				<div>
+					<label for="year">Release Year</label>
+				</div>
+				<div>
+					<input type="number" name="year"/>
+				</div>
+				<div>
+					<div class="pos">
+						<div>
+							<label for="lang">Language</label>
+						</div>
+						<div>
+							<select name="lang">
+								<option value="tamil">Tamil</option>
+								<option value="english">English</option>
+								<option value="hindi">Hindi</option>
+							</select>
+						</div>
+					</div>
+					<div class="pos">
+						<div>
+							<label for="rate">Rating</label>
+						</div>
+						<div>
+							<select name="rate">
+								<option value="rating">Rating</option>
+								<option value="5">5</option>
+								<option value="4">4</option>
+								<option value="3">3</option>
+								<option value="2">2</option>
+								<option value="1">1</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div>
+					<label for="url">Thumbnail URL</label>
+				</div>
+				<div>
+					<input type="url" name="url"/>
+				</div>
+				<div>
+					<label for="plot">Plot</label>
+				</div>
+				<div>
+					<textarea rows="5" name="plot"></textarea>
+				</div>
+				<div>
+					<label for="purl">Poster URL</label>
+				</div>
+				<div>
+					<input type="url" name="purl"/>
+				</div>
+				<div>
+					<label for="cast">cast</label>
+				</div>
+				<div>
+					<textarea rows="5" name="cast"></textarea>
+				</div>
+				<div class="but">
+					<input class="btn" type="button" value="save">
+				</div>
+			</form>
+			<footer>
+					jkgv
+				</footer>
+		</div>
+	</body>
+</html>
