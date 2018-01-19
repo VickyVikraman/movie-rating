@@ -1,0 +1,71 @@
+h2
+{
+    color:black;
+}
+body{
+    font-family: inherit;
+    background-color:rgb(158, 64, 221);
+    margin: 0;
+    width:100%;
+    color: whitesmoke;
+}
+.pos{
+    display: inline-block;
+}
+.but
+{
+    padding-left: 34%;
+}
+.btn{
+    width: 100px;
+    background-color: gold;
+}
+select{
+    color: whitesmoke;
+    width: 11.29em;
+}
+input{
+    width: 96%;
+}
+input,select{
+    border-width: 1px;
+    border-color: rgb(12, 10, 10);
+    background-color: rgb(156, 81, 206);
+    height: 25px;
+}
+textarea{
+    width: 96%;
+    border-color: rgb(12, 10, 10);
+    background-color: rgb(156, 81, 206);
+}
+label{
+
+    padding: 2px;
+}
+div{
+    padding: 1px;
+}
+.main{
+    font-size: 1.05em;
+    width: 324px;
+    padding: 0% 38%;
+    position:absolute;
+}
+.logo
+{
+    padding: 2% 0% 0% 5%;
+
+}
+.menu
+{
+    width: 14%;
+    color: goldenrod;
+    padding: 2% 5% 0% 0%;
+    float: right;
+}
+a{
+    padding-right:12%; 
+}
+footer{
+    position: absolute;
+}
