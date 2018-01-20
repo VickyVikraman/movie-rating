@@ -1,12 +1,12 @@
 h2
 {
-    color:black;
+    color: white;
+    text-align: center;
 }
 body{
+    width: 1349px;
     font-family: inherit;
-    background-color:rgb(158, 64, 221);
     margin: 0;
-    width:100%;
     color: whitesmoke;
 }
 .pos{
@@ -46,26 +46,87 @@ div{
     padding: 1px;
 }
 .main{
-    font-size: 1.05em;
-    width: 324px;
-    padding: 0% 38%;
-    position:absolute;
+    font-size: 1.60em;
+    width: 24%;
+    padding: 0% 38%
+
 }
 .logo
 {
-    padding: 2% 0% 0% 5%;
+    width:20%;
+    padding: 2% 0% 0% 15%;
 
 }
 .menu
 {
-    width: 14%;
+    width: 31%;
     color: goldenrod;
     padding: 2% 5% 0% 0%;
     float: right;
 }
 a{
-    padding-right:12%; 
+    color: gold;
+    text-decoration: none;
+    padding-left: 18%;
 }
-footer{
-    position: absolute;
+.footl1{
+    background: black;
+    padding-left:15%;
+}
+.footl
+{
+    padding-top: 2%;
+    width: 3%;
+    height: 10%;
+    padding-bottom: 2%;
+
+}
+.footr
+{
+    padding-top: 2%;
+    width: 15%;
+    float: right;
+    padding-right: 17%;
+}
+.main:target{
+    display: block;
+}
+.home{
+    display: none;
+}
+.home:target
+{
+    display: block;
+}
+.eng{
+    padding: 0% 13.6% 0% 15.5%;
+    display: block;
+}
+.checked {
+    color: orange;
+}
+.tam
+{
+    display: block;
+}
+.engmo{
+    
+    width: 23.2%;
+    line-height: 35%;
+    float:left;
+    margin: 0.15%;
+}
+ .clear {
+     clear: left;
+     display: inline-block;
+ }
+.engmov1 .engmo{
+    padding-left: 12%;
+}
+.yr{
+    font-size: 0.89em;
+}
+.mgg
+{
+    width:86%;
 }
